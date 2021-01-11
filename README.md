@@ -18,6 +18,8 @@ The perfomance on the hidden Kaggle test set is noticably worse than on the vali
 
 Using K-Fold split the performance stayed the same on the different validation sets but improved on the hidden set by.... 
 
+Initlially the final prediction of the 10 models was calculated by taking the mean of the predictions. This can be improved by taking the weigted mean. The weigths were the optimized via backpropagation. For each model there is one weigth for all 206 label leading to 2060 weigths. Using this approach the performance was improvecd to... 
+
 # Insigths
 
 Using the attention masks of the TabNet you can glimpse certain insigths from the decission making process. 
