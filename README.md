@@ -1,9 +1,9 @@
 # Mechanism-of-action-prediction
-My Kaggle challenge notebooks for the "Mechanism of Action" contest. All my iterations and insights. This was my first Kaggle challenge, as such it is not fully optimized, as I wanted to get a feel for the competitions first.
+My notebooks for the "Mechanism of Action" dataset. All my iterations and insights.
 
 # Challenge Outline
 
-The goal of the challenge is to use 100 cell viability features and 772 gene expression features to find the corresponding 206 target mechanisms. The features are the results from the L1000 and Prism assay respectively. The problem is therefore a simple classification problem where the complexity comes from the number of categories and their imbalance. 
+The goal is to use 100 cell viability features and 772 gene expression features to find the corresponding 206 target mechanisms. The features are the results from the L1000 and Prism assay respectively. The problem is therefore a simple classification problem where the complexity comes from the number of categories and their imbalance. 
 
 # Approaches
 Baseline: My baseline model was a fully connected neural network with only the necessary data rescaling. As expected, the results were not that great with a logit loss of 0.027.
